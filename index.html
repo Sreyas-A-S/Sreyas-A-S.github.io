@@ -23,6 +23,11 @@
       <link rel="stylesheet" href="assets/css/light-mode.css">
       <link rel="stylesheet" href="assets/css/meanmenu.css">
       <link rel="stylesheet" href="assets/css/responsive.css">
+      <style>
+            img {
+                pointer-events: none;
+                  }
+      </style>
    </head>
 
    <body>
@@ -547,5 +552,11 @@
          <script src="assets/js/validate.min.js"></script>
          <script src="assets/js/meanmenu.js"></script>
          <script src="assets/js/main.js"></script>
+            <script>
+                  $('img').mousedown(function (e) {
+              if(e.button == 2) { // right click
+                return false; // do nothing!
+              }
+            });</script>
 
       </body></html>
