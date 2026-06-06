@@ -38,9 +38,21 @@
       }
       </script>
 
-      <link rel="apple-touch-icon" href="assets/img/me/mee.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/img/me/mee.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/img/me/mee.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/img/me/mee.png">
       <link rel="shortcut icon" type="image/png" href="assets/img/me/mee.png">
       <link rel="manifest" href="manifest.json">
+      <meta name="theme-color" content="#8C52FF">
+
+      <!-- Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5VVGDRV9W"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-D5VVGDRV9W');
+      </script>
 
       <link rel="stylesheet" href="assets/css/animate.min.css">
       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -716,14 +728,38 @@
          <footer class="contact-section" id="contact-section">
             <div class="container">
                <div class="row">
+                  <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
+                     <div class="contact-form-box">
+                        <div class="section-header">
+                           <h2 class="section-title">Get in Touch</h2>
+                           <p>Have a project in mind? Let's build something great together.</p>
+                        </div>
+                        <form action="https://formspree.io/f/sreyasas25@gmail.com" method="POST" id="contact-form">
+                           <div class="row">
+                              <div class="col-md-6 mb-3">
+                                 <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                 <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                              </div>
+                              <div class="col-12 mb-3">
+                                 <input type="text" name="subject" class="form-control" placeholder="Subject">
+                              </div>
+                              <div class="col-12 mb-3">
+                                 <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                              </div>
+                              <div class="col-12">
+                                 <button type="submit" class="btn tj-btn-primary">Send Message</button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
 
-                  <div
-                     class="col-lg-5 offset-lg-1 col-md-5 d-flex flex-wrap align-items-center order-1 order-md-2">
-                     <div class="contact-info-list">
+                  <div class="col-lg-5 offset-lg-1 col-md-5 d-flex flex-wrap align-items-center order-1 order-md-2">
+                     <div class="contact-info-list w-100">
                         <ul class="ul-reset">
-                           <li
-                              class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
-                              data-wow-delay=".4s">
+                           <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight" data-wow-delay=".4s">
                               <div class="icon-box">
                                  <i class="flaticon-phone-call"></i>
                               </div>
@@ -732,9 +768,7 @@
                                  <a href="tel:6282659950">+91 628 265 9950</a>
                               </div>
                            </li>
-                           <li
-                              class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
-                              data-wow-delay=".5s">
+                           <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight" data-wow-delay=".5s">
                               <div class="icon-box">
                                  <i class="flaticon-mail-inbox-app"></i>
                               </div>
@@ -744,32 +778,25 @@
                               </div>
                            </li>
                         </ul>
-                     </div>
-                  </div>
-
-                  <div
-                     class="col-lg-5 offset-lg-1 col-md-5 d-flex flex-wrap align-items-center order-1 order-md-2">
-                     <div class="contact-infoo-list">
-                        <ul class="ul-reset social-icons">
-                           <li>
-                              <a target="_blank"
-                                 href="https://www.youtube.com/@sreyas.a.s">
-                                 <i class="fa-brands fa-youtube"></i>
-                              </a>
-                           </li>
-                           <li>
-                              <a target="_blank"
-                                 href="https://www.linkedin.com/in/sreyas-a-s/">
-                                 <i class="fa-brands fa-linkedin-in"></i>
-                              </a>
-                           </li>
-                           <li>
-                              <a target="_blank"
-                                 href="https://sreyas-a-s.github.io/">
-                                 <i class="fa-brands fa-github"></i>
-                              </a>
-                           </li>
-                        </ul>
+                        <div class="contact-infoo-list mt-4">
+                           <ul class="ul-reset social-icons">
+                              <li>
+                                 <a target="_blank" href="https://www.youtube.com/@sreyas.a.s">
+                                    <i class="fa-brands fa-youtube"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a target="_blank" href="https://www.linkedin.com/in/sreyas-a-s/">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a target="_blank" href="https://sreyas-a-s.github.io/">
+                                    <i class="fa-brands fa-github"></i>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
                      </div>
                   </div>
                </div>
