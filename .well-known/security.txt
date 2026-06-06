@@ -1,0 +1,6 @@
+Contact: mailto:sreyasas25@gmail.com
+Expires: 2027-01-01T00:00:00.000Z
+Preferred-Languages: en, ml
+Canonical: https://sreyas-a-s.github.io/.well-known/security.txt
+Policy: https://sreyas-a-s.github.io/security-policy.html
+Hiring: https://sreyas-a-s.github.io/#contact-section

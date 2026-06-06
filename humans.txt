@@ -1,0 +1,14 @@
+/* TEAM */
+    Sreyas A S -- Software Engineer
+    Site: https://sreyas-a-s.github.io/
+    Contact: sreyasas25@gmail.com
+    Location: Trivandrum, Kerala, India
+
+/* THANKS */
+    To all open source contributors and the developer community.
+
+/* SITE */
+    Last update: 2026/06/06
+    Standards: HTML5, CSS3, JavaScript
+    Components: Laravel, PHP, Python, Bootstrap, jQuery
+    Software: VS Code, Git

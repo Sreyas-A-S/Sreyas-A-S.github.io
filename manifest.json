@@ -1,0 +1,21 @@
+{
+  "name": "Sreyas A S | Software Engineer",
+  "short_name": "Sreyas Portfolio",
+  "description": "Professional Portfolio of Sreyas A S - Software Engineer",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f0715",
+  "theme_color": "#8C52FF",
+  "icons": [
+    {
+      "src": "assets/img/me/mee.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/me/mee.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
